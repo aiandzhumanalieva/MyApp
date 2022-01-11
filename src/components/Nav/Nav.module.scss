@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    align-items: center;
+  
+    li {
+      padding-right: 30px;
+      color: var(--sub-color);
+      cursor: pointer;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+  
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
