@@ -20,6 +20,7 @@ body {
   /* colors */
   --blue:#3772FF ;
   --subcolor: #888888;
+  --main-border: #CCCCCC;
 }
 /*  */
 .App{

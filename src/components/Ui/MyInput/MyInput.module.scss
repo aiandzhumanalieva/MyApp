@@ -1,0 +1,23 @@
+.inp_container{
+    width:270px;
+    height:40px;
+    border-radius:7px;
+    border: 1.5px solid var(--main-border);
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:14px 15px;
+font-family:var( --dm) !important;
+    
+input{
+border:none;
+outline:none;
+
+&::placeholder{
+    color:var(--subcolor);
+font-weight:normal;
+line-height:14,32px;
+font-size:11px;
+}
+}
+}

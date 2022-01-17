@@ -1,3 +1,4 @@
+import { useState } from "react";
 import style from "./Nav.module.scss";
 
 const Nav = () => {

@@ -1,6 +1,7 @@
-import MyInput from "../MyInput/MyInput";
+import MyInput from "../Ui/MyInput/MyInput";
 import Nav from "../Nav/Nav";
 import style from "./Header.module.scss";
+import MyButton from '../Ui/MyButton';
 
 const Header = () => {
   return (
@@ -10,8 +11,9 @@ const Header = () => {
         <h1>Cryptmax</h1>
       </a>
       <Nav />
-      <div>
-        <MyInput placeholder="Search..." />
+      <div className={style.right__container}>
+        <MyInput placeholder="Search..." type='text' />
+        <MyButton btn={'login'}>  Login </MyButton>
       </div>
     </header>
   );

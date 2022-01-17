@@ -1,0 +1,53 @@
+.pop{
+    margin-top: 80px;
+
+    h3{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 52px;
+    }
+.subpop{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 22px;
+ ul{
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    width: 100%;
+   
+}
+ul li{
+    font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #888888;
+ border-radius: 5px;
+border: 1px solid #CCCCCC;
+box-sizing: border-box;
+height: 30px;
+max-width: 90px;
+width: 100%;
+text-align: center;
+}
+.right{
+    max-width: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}   
+}
+
+
+.blocks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.button{
+    max-width: 150px;
+    width: 100%;
+   margin-left: 515px;
+}
+}

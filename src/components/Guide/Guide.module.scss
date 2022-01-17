@@ -1,0 +1,53 @@
+.guide{
+    background: #F6F7F8;
+    height: 672px;
+    margin-top: 105px;
+  .title {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 100px;
+      padding-bottom: 60px;
+
+      h3{
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 52px;
+      }
+  }
+  .subguide{
+      height: 362px;
+      background: #FFFFFF;
+      border-radius: 20px;
+h3{
+    padding-top: 50px;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    margin-left: 111px;
+    img{
+        margin-right: 20px;
+    }
+}
+      .middle{
+          display: flex;
+          justify-content: start;
+          img{
+              margin-left: 30px;
+          }
+      }
+.text{
+   margin-left: 130px; 
+   max-width: 901px;
+   font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+color: #888888;
+}
+p{
+    margin-bottom: 12px;
+}
+ul li{
+  margin-bottom: 12px;
+}
+  }  
+}

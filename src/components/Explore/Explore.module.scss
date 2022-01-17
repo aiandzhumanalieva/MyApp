@@ -1,0 +1,20 @@
+.explore{
+    margin-top: 100px;
+ .explore_title{
+display: flex;
+justify-content: space-between;
+
+h3{
+    font-weight: bold;
+font-size: 40px;
+line-height: 52px;
+}
+    }
+.myexplore{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+}

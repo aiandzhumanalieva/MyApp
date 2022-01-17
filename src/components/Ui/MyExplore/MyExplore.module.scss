@@ -1,0 +1,50 @@
+.myexplore{
+  max-width: 270px;
+  width: 100%; 
+  height: 445px;
+  margin-bottom: 45px;
+    .title{
+display: flex;
+justify-content: space-between;
+margin-top: 10px;
+margin-bottom: 15px;
+
+h3{
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+font-family: var(--poppins);
+}
+   } 
+   .middle{
+display: flex;
+justify-content: start;
+margin-bottom: 15px;
+
+p{
+    color: #666666;
+    font-weight: normal;
+font-size: 13px;
+line-height: 17px;
+margin-left: 10px;
+}
+   }
+
+   .bottom{
+display: flex;
+justify-content: space-between;
+p img{
+    margin-right: 9px;
+}
+p{
+color:  #888888;
+    font-weight: normal;
+font-size: 11px;
+line-height: 14px;
+}
+p span{
+    color: black;
+    font-weight: 700;
+}
+   }
+}
